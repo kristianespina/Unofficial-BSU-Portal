@@ -55,6 +55,11 @@ An unofficial portal for checking student's grades using publicly accessible bat
 ```
 
 ## 🚀 Usage
+### To launch both the back-end and the front-end:
+
+```bash
+npm start
+```
 
 ### To launch the **Back-End Server**: 
 
@@ -73,10 +78,7 @@ npm start
 ## ⚙ Installation
 
 ```bash
-cd bsu-portal-react-frontend
-npm install
-cd .../bsu-portal-graphql-server
-npm install
+npm run postinstall
 ```
 
 ## 👊 Contributing
