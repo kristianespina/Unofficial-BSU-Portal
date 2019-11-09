@@ -3,7 +3,8 @@ const typeDefs = require('./schema');
 
 const BSUAPI = require('./datasources/BSUAPI');
 
-const PORT = process.env.port || 4000
+const PORT = process.env.PORT || 4000
+
 const resolvers = {
     Query: {
         records: (_, { srcode }, { dataSources }) => dataSources.BSUAPI.records(srcode),
