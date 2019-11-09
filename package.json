@@ -4,8 +4,8 @@
   "description": "An unofficial portal for checking student's grades using publicly accessible batstate-u.edu.ph endpoints. Uses GraphQL under REST API for the backend and ReactJS + Bulma.io for the frontend",
   "main": "index.js",
   "scripts": {
-    "postinstall": "cd bsu-portal-graphql-server && npm install && cd ../bsu-portal-react-frontend && npm install && npm run build",
-    "start": "concurrently \"cd bsu-portal-graphql-server && npm start\" \"cd bsu-portal-react-frontend && serve -s build -l 80\"",
+    "postinstall": "cd bsu-portal-graphql-server && npm install && cd ../bsu-portal-react-frontend && npm install",
+    "start": "concurrently \"cd bsu-portal-graphql-server && npm start\" \"cd bsu-portal-react-frontend && npm run build && serve -s build -l 80\"",
     "start-dev": "concurrently \"cd bsu-portal-graphql-server && npm start\" \"cd bsu-portal-react-frontend && npm start\""
   },
   "repository": {
