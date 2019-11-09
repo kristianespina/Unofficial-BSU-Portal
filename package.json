@@ -1,0 +1,22 @@
+{
+  "name": "unofficial-bsu-portal",
+  "version": "1.0.0",
+  "description": "An unofficial portal for checking student's grades using publicly accessible batstate-u.edu.ph endpoints. Uses GraphQL under REST API for the backend and ReactJS + Bulma.io for the frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristianespina/Unofficial-BSU-Portal.git"
+  },
+  "author": "Kristian Espina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kristianespina/Unofficial-BSU-Portal/issues"
+  },
+  "homepage": "https://github.com/kristianespina/Unofficial-BSU-Portal#readme",
+  "scripts": {
+    "postinstall": "cd bsu-portal-graphql-server && npm install && cd ../bsu-portal-react-frontend && npm install"
+  }
+}
