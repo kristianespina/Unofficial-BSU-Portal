@@ -14,7 +14,10 @@ An unofficial portal for checking student's grades using publicly accessible bat
 - apollo-server
 
 ## 📂 Project Structure
+
 ```
+.
+├── LICENSE
 ├── README.md
 ├── bsu-portal-graphql-server
 │   ├── README.md
