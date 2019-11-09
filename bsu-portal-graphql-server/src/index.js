@@ -3,8 +3,6 @@ const typeDefs = require('./schema');
 
 const BSUAPI = require('./datasources/BSUAPI');
 
-const PORT = process.env.PORT || 4000
-
 const resolvers = {
     Query: {
         records: (_, { srcode }, { dataSources }) => dataSources.BSUAPI.records(srcode),
@@ -19,7 +17,7 @@ const server = new ApolloServer({
     })
 });
 
-server.listen({ port: PORT }).then(({ url }) => {
+server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
     console.log(`🚀 GraphQL Server running at ${url} !`);
 })
 
