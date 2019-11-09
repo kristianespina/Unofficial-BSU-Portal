@@ -6,7 +6,8 @@
   "scripts": {
     "postinstall": "cd bsu-portal-graphql-server && npm install && cd ../bsu-portal-react-frontend && npm install",
     "start": "concurrently \"cd bsu-portal-graphql-server && npm start\" \"cd bsu-portal-react-frontend && npm run build && serve -s build\"",
-    "start-heroku": "concurrently \"cd bsu-portal-graphql-server && npm start\" \"cd bsu-portal-react-frontend && npm run build && npm run serve-heroku\"",
+    "start-heroku-reactjs": "cd bsu-portal-react-frontend && npm run build && npm run serve-heroku",
+    "start-heroku-graphql": "cd bsu-portal-graphql-server && npm start",
     "start-dev": "concurrently \"cd bsu-portal-graphql-server && npm start\" \"cd bsu-portal-react-frontend && npm start\""
   },
   "repository": {

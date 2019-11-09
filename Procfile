@@ -1,1 +1,2 @@
-web: npm run start-heroku
+web: npm run start-heroku-reactjs
+web: npm run start-heroku-graphql
