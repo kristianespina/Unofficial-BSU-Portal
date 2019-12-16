@@ -1,6 +1,10 @@
 # Unofficial BSU Portal (ReactJS + GraphQL)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/kristianespina/Unofficial-BSU-Portal/blob/master/LICENSE)
 
+## 🧀 Live Demo
+
+[View Live Demo on Heroku](https://unofficial-bsu-portal.herokuapp.com/)
+
 
 ## 🍖 Project Details
 
